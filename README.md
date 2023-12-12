@@ -19,7 +19,7 @@ Este projeto tem como objetivo demonstrar a configuração e comunicação entre
 
 - **CIDR:** 172.15.0.0/24
 - **Gateway:** 172.15.0.254
-- **DHCP e DNS:** 172.15.0.253
+- **DHCP e DNS:** 172.15.0.253 (wsgrupo007)
 - **Servidores na Rede B:**
     - 2 servidores com IPs fixos
     - 5 desktops utilizando DHCP

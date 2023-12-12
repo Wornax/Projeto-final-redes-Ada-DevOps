@@ -8,27 +8,26 @@ Este projeto tem como objetivo demonstrar a configuração e comunicação entre
 
 ### Rede A (Alunos)
 
-- **CIDR:** 192.168.0.0/24
-- **Gateway:** 192.168.0.254
-- **DHCP e DNS:** 192.168.0.253
+- **CIDR:** 192.168.10.0/24
+- **Gateway:** 192.168.10.254
+- **DHCP e DNS:** 192.168.10.253
 - **Máquinas na Rede A:**
     - 4 desktops utilizando DHCP
-    - 2 servidores com IPs fixos
+    - 1 servidor com IP fixo
 
 ### Rede B (Alunos)
 
 - **CIDR:** 172.15.0.0/24
 - **Gateway:** 172.15.0.254
 - **DHCP e DNS:** 172.15.0.253
-- **Servidor Web:** 172.15.0.252
-- **Máquinas na Rede B:**
+- **Servidores na Rede B:**
+    - 2 servidores com IPs fixos
     - 5 desktops utilizando DHCP
-    - 1 servidor web com IP fixo
 
 ## Equipamentos Utilizados
 
 - 1 Router Cisco 1841
-- 3 Switches Cisco 2960 24TT
+- 2 Switches Cisco 2960 24TT
 
 ## Objetivo
 
@@ -38,7 +37,7 @@ O objetivo final deste projeto é permitir que um dos desktops na Rede A possa a
 
 1. **Configuração dos Equipamentos:** 
    - Configurar o Router 1841 para roteamento entre as redes A e B.
-   - Configurar os Switches 2960 para permitir a comunicação entre os dispositivos.
+   - Configurar os 2 Switches 2960 para permitir a comunicação entre os dispositivos.
 
 2. **Configuração das Redes:**
    - Atribuir corretamente os endereços IP, gateways, DHCP e DNS conforme especificado para cada rede.

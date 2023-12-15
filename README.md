@@ -1,4 +1,5 @@
 # Projeto de Comunicação entre Redes
+![image](https://github.com/Wornax/Projeto-final-redes-Ada-DevOps/assets/105296448/5ec67a78-b81f-4668-ae17-794fdcc3aa0f)
 
 ## Descrição
 
